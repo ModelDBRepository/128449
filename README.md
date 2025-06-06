@@ -1,8 +1,8 @@
-This will reproduce Figure 9 of Gabbiani and Krapp (2006)  
+This will reproduce Figure 9 of Gabbiani and Krapp (2006) 
 *J Neurophysiol* 96:2951-2962.
 
-The figure simply shows that a leaky-integrate-and-fire model cannot  
-reproduce spike frequency adaptation as it is seen experimentally in  
+The figure simply shows that a leaky-integrate-and-fire model cannot 
+reproduce spike frequency adaptation as it is seen experimentally in 
 the LGMD neuron.
 
 The figure and its inset are reproduced by the matlab m-file, sim_fig_sub.m
@@ -10,16 +10,16 @@ The figure and its inset are reproduced by the matlab m-file, sim_fig_sub.m
 ![screenshot 1](./screenshot1.jpg)  
 ![screenshot 2](./screenshot2.jpg)
 
-To run this m-file, you will first need to convert the c-file lif_ad.c  
-to a MEX file by running the following command after you have changed  
+To run this m-file, you will first need to convert the c-file lif_ad.c 
+to a MEX file by running the following command after you have changed 
 directory to the folder created when this archive is extracted:
 
 ```
 MATLAB_HOME/bin/mex lif_ad.c
 ```
 
-MATLAB_HOME refers to the root directory of the MATLAB implementation.  
-In a Unix operating system, this command can be run from a shell.  
+MATLAB_HOME refers to the root directory of the MATLAB implementation. 
+In a Unix operating system, this command can be run from a shell. 
 In Windows, in the dos command box, type  
 ```
 mex lif_ad.c
